@@ -7,6 +7,8 @@ const string funksin::clear_zeros(string s)
         if (s[i] != '0')
         {
             ind = i;
+            cout <<4;
+
             break;
         }
     }
