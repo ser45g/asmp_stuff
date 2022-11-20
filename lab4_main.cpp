@@ -4,9 +4,10 @@
 #include "lab4.h"
 #include <iomanip>
 using namespace std;
-
+#define debug std::cout << "debug debug... smth";
 int main()
 {
+    debug
     srand(time(NULL));
     int n = 15;
     double* x_val = new double[n];
